@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<!DOCTYPE mapper PUBLIC "-//mybatis.org//DTD Config 3.0//EN" "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+
+<mapper namespace="com.dang.admin.mapper.AdminMapper">
+
+    <select id="findPermissionById" parameterType="long" resultType="com.dang.admin.pojo.Permission">
+        select * from ms_permission where id in (select permission_id from ms_admin_permission where admin_id=#{adminId})
+    </select>
+</mapper>

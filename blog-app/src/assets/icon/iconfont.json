@@ -1,0 +1,44 @@
+{
+  "id": "",
+  "name": "",
+  "font_family": "iconfont",
+  "css_prefix_text": "icon-",
+  "description": "",
+  "glyphs": [
+    {
+      "icon_id": "1000860",
+      "name": "qq",
+      "font_class": "qq",
+      "unicode": "e62e",
+      "unicode_decimal": 58926
+    },
+    {
+      "icon_id": "3176645",
+      "name": "GitHub",
+      "font_class": "GitHub",
+      "unicode": "ea0a",
+      "unicode_decimal": 59914
+    },
+    {
+      "icon_id": "10905628",
+      "name": "微信",
+      "font_class": "weixin",
+      "unicode": "e630",
+      "unicode_decimal": 58928
+    },
+    {
+      "icon_id": "23179687",
+      "name": "bilibili-fill",
+      "font_class": "bilibili-fill",
+      "unicode": "e7ac",
+      "unicode_decimal": 59308
+    },
+    {
+      "icon_id": "24722463",
+      "name": "csdn",
+      "font_class": "csdn",
+      "unicode": "e502",
+      "unicode_decimal": 58626
+    }
+  ]
+}
